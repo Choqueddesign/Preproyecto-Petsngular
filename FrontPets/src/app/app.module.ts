@@ -9,6 +9,7 @@ import { PageEmpleadosComponent } from './components/page-empleados/page-emplead
 import { PageGerenteComponent } from './components/page-gerente/page-gerente.component';
 import { LoginComponent } from './components/login/login.component';
 import { NewUserComponent } from './components/new-user/new-user.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NewUserComponent } from './components/new-user/new-user.component';
     PageEmpleadosComponent,
     PageGerenteComponent,
     LoginComponent,
-    NewUserComponent
+    NewUserComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
