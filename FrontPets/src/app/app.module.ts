@@ -20,7 +20,7 @@ import { HomeComponent } from './components/home/home.component';
     PageGerenteComponent,
     LoginComponent,
     NewUserComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
