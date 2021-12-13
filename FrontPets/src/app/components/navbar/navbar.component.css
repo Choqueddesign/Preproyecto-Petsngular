@@ -1,0 +1,17 @@
+.bg-img {
+  background-image: url("../../../assets/img/navbar/bg_perro.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-white {
+  /*background: rgba(255, 255, 255, 0.5) !important;*/
+}
+h3 {
+  color: #00b0ae !important;
+}
+.btn-primary {
+  background-color: #1F6665;
+  border-color: #00b0ae;
+}

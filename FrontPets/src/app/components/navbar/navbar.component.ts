@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  navbarHeader: string;
+
+  constructor() { 
+    this.navbarHeader = "d-block"
+  }
 
   ngOnInit(): void {
+  }
+
+  navbarandHeader(route: boolean):void{
+    route? this.navbarHeader = "d-block":this.navbarHeader="d-none"
   }
 
 }
